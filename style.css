@@ -1,0 +1,244 @@
+.nav-img img {
+  width: 100px;
+}
+
+.bg {
+  background: #131212ab url(img/home-bg3.jpg);
+  background-blend-mode: overlay;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  display: flex;
+  padding-left: 20px;
+  background-color: white;
+}
+nav {
+  margin-left: 400px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin-right: 20px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+.text h1 {
+  text-align: center;
+  margin-top: 15%;
+  color: #ffff;
+  font-size: 30px;
+}
+.text p {
+  text-align: center;
+  color: #ffff;
+}
+.btn {
+  background-color: lightcoral;
+  color: #ffff;
+  padding: 15px 25px;
+  border: none;
+  margin-right: 5px;
+  border-radius: 8px;
+}
+.btn1 {
+  background-color: aliceblue;
+  color: lightcoral;
+  padding: 15px 25px;
+  border-radius: 8px;
+  border: none;
+}
+.button {
+  text-align: center;
+}
+.photo3 img {
+  width: 500px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+.business {
+  display: flex;
+  margin-left: 80px;
+}
+.para {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.para i {
+  margin-right: 5px;
+  background-color: #ff5b69;
+  color: #ffff;
+  border-radius: 3px;
+  padding: 3px;
+}
+/* srevice start */
+.para4 {
+  text-align: center;
+}
+.service {
+  display: flex;
+  margin-left: 200px;
+  gap: 60px;
+  margin-top: 70px;
+}
+.icon i {
+  border: 1px solid #ff5b69;
+  padding: 25px;
+  border-radius: 50%;
+  color: #ff5b69;
+  margin-left: 45px;
+}
+.icon h2 {
+  margin-left: 25px;
+}
+.icon i:hover {
+  background-color: #ff5b69;
+  color: #ffff;
+}
+.bac {
+  color: gray;
+}
+
+/* srevice end */
+
+/* our work start */
+.para5 {
+  text-align: center;
+}
+.click {
+  display: flex;
+  margin-left: 450px;
+  margin-top: 70px;
+}
+.click li {
+  list-style: none;
+  text-align: center;
+}
+.click li a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: black;
+  transition: 0.5s;
+}
+.click li a:hover {
+  padding: 15px 30px;
+  background-color: #ff5b69;
+  color: #ffff;
+}
+.all-img img {
+  width: 400px;
+  padding-top: 100px;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+/* our work end */
+
+/* our Pricing start */
+.tittel {
+  text-align: center;
+  margin-top: 60px;
+}
+.list {
+  background-color: #fff;
+  width: 400px;
+  height: 400px;
+  box-shadow: 4px 4px 4px 4px #f9f9f9;
+  margin-left: 30px;
+}
+.list h1 {
+  padding-left: 100px;
+  color: #282828;
+  font-size: 22px;
+}
+.list h2 {
+  margin-left: 40px;
+  background-color: #f9f9f9;
+  padding: 25px;
+  color: #ff5b69;
+  font-size: 40px;
+}
+.list ul li {
+  line-height: 40px;
+  padding-left: 40px;
+  list-style: none;
+  font-size: 18px;
+}
+.btn5 {
+  transition: all 0.4s;
+  color: #fff !important;
+  border: 2px solid #ff5b69;
+  padding: 15px 30px;
+  background-color: #ff5b69bd;
+  margin-left: 80px;
+  border-radius: 5px;
+}
+.btn5:hover {
+  background-color: #ff5b5b;
+}
+.basic-pilan {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+.month {
+  color: #000;
+  font-size: 22px;
+}
+/* our Pricing end */
+/* our team start */
+.tittel2 {
+  margin-top: 200px;
+  text-align: center;
+  color: #6c756d;
+}
+.photo4 {
+  display: flex;
+  gap: 20px;
+  margin-left: 30px;
+}
+.photo4 img {
+  width: 300px;
+}
+
+.pho h4 {
+  color: #6c756d;
+}
+.pho {
+  text-align: center;
+}
+/* our team end */
+/* counter start */
+.counter {
+  background-image: url(img/counter.jpg);
+  background-size: cover;
+  padding: 80px 0;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-attachment: fixed;
+}
+.counter-img img {
+  border-radius: 50%;
+  width: 70px;
+  text-align: center;
+  border: 6px solid gray;
+}
+.counter img {
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.tittel3 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 100px;
+  justify-content: center;
+}
+/* counter end */
